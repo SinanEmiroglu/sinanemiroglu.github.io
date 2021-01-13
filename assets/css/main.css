@@ -2330,14 +2330,17 @@ button:active,
 }
 
 #main > section.cover {
-	padding: 10em 0;
+	padding: 9em 0;
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
+	object-fit: fill;
 }
 
 #main > section.one {
-	background-color: #81918e;
-	background-image: url("../../images/banner.jpg");
+	background-color: #000812;
+	background-image: url("../../images/banner.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 #main > section.two {
